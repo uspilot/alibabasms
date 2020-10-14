@@ -1,0 +1,20 @@
+{
+  "name": "uspilot/alibabasms",
+  "description": "PHP class to send SMS through Alibaba Cloud SMS",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "US Pilot"
+    }
+  ],
+   "require": {
+     "uspilot/ini_parser": "dev-master",
+     "alibabacloud/client": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "USPilot\\": "/"
+    }
+  }
+}
